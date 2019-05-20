@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Pimp My Text!</title>
+		<link href="http://www.cs.washington.edu/education/courses/190m/09sp/labs/5-pimpify/pimpmytext.css" rel="stylesheet" type="text/css" />
+
+		<!--
+			This is a widely-used JavaScript "library" with many useful functions,
+			including the $() function, which we need. We'll discuss it in class.
+			Please don't remove this link or change the following URL; leave it as-is!
+		-->
+		<script type="text/javascript" src="http://www.cs.washington.edu/education/courses/190m/09sp/labs/5-pimpify/prototype.js"></script>
+
+		<!-- link to your script file here -->
+<style>
+h3{
+	border-style: solid;
+}
+</style>
+
+<script>
+	function pimpify()
+	{
+		document.getElementById("userInput").style.fontSize = "25px";
+	}
+
+	function bling()
+	{
+		if(document.getElementById("myCheckbox").checked == true)
+		{
+			document.getElementById("userInput").style.color = "green";
+			document.getElementById("userInput").style.textDecoration = "underline";
+		}
+		else
+		{
+			document.getElementById("userInput").style.color = "black";
+			document.getElementById("userInput").style.textDecoration = "none";
+		}
+	}
+
+</script>
+	</head>
+
+	<body>
+		<h1>Pimp My Text</h1>
+		<div>
+			<img src="http://www.cs.washington.edu/education/courses/190m/09sp/labs/5-pimpify/pimpin.jpg" alt="Marty Stepp, pimpin' it!" />
+		</div>
+
+		<!-- Your UI controls go here -->
+		<h3> Text
+			<form>
+				<input id="userInput" type="text" name="userText" size="100px">
+			</form>
+		</h3>
+
+		<h3> Pimpification
+			<form>
+				<input type="button" value="Bigger Pimpin!" onclick="pimpify()"> <br>
+				<input id="myCheckbox" type="checkbox" onChange="bling()"> Bling
+			</form>
+		</h3>
+
+	</body>
+</html>

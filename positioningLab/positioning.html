@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+<title>Dalton Hutchinson Resume</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/bg-tile.gif);
+  background-repeat: repeat;
+}
+
+.insideContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.inside{
+  width: 800px;
+}
+
+.header {
+  background-image: linear-gradient(#29a329, #1f7a1f);
+  padding: 30px;
+  text-align: right;
+  font-size: 35px;
+  margin: -10px;
+}
+
+.description{
+  font-size: 30px;
+  margin-top: 0px;
+  margin-right: 15px;
+}
+
+.subHeader{
+  padding-top: 10px;
+  width: 820px;
+  margin-left: -10px;
+}
+
+.imageMenu{
+  display: flex;
+  flex-flow: row;
+  background-image: linear-gradient(#1f7a1f, #29a329);
+  padding: 5px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  width: 135px;
+  height: 45px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px; /* Should be removed. Only for demonstration */
+}
+
+.columnSmall{
+  float: left;
+  width: 30%;
+  padding-right: 10px;
+}
+
+.columnLarge{
+  float: left;
+  width: 70%;
+  padding-left: 30px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.middle{
+  background-color: #e6e6e6;
+  margin: -10px;
+}
+
+p.outlook{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+h2.skills{
+  margin-bottom: -10px;
+  margin-left: 30px;
+}
+
+h2{
+  margin-left: 30px;
+  margin-bottom: -15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+h4{
+  padding-left: 25px;
+}
+
+ul.skillsList{
+  list-style: none;
+  border-style: solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(to right, #cccccc, #a6a6a6);
+}
+ul.skillsList li{
+  border-style: solid;
+  margin-top: 3px;
+  margin-right: 30px;
+
+}
+
+ul.unstyledList{
+  list-style: none;
+  padding: 0px;
+}
+/* Style the footer */
+.footer {
+  background-color: #29a329;
+  padding: 10px;
+  text-align: center;
+  margin: -10px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  color: white;
+}
+.imageBorder{
+  background-color: white;
+  padding: 3px;
+  width: 182px;
+  height: 181px;
+}
+
+hr{
+  border: 1px solid white;
+  width: 90%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class= "insideContainer">
+<div class = "inside">
+<div class="header">
+  <h2>Dalton Hutchinson</h2>
+  <em class="description"> Programmer and Designer </em>
+</div>
+
+<div class="subHeader">
+  <div class="row" style="background-image: linear-gradient(#f2f2f2, #bfbfbf);">
+    <div class="column" >
+      <div class="imageBorder">
+         <img src=../images/portfolioPic.JPG width=175px height= 175px>
+      </div>
+    </div>
+
+    <div class="column">
+        <div class="columnSmall" style="color: #29a329 "> Address <br> <br>
+          Phone <br> <br>
+          Email <br> <br>
+          URL
+         </div>
+        <div class="columnLarge"> 38 Sheffield Dr. <br> <br>
+          (609) 784 4615 <br> <br>
+          hutchid6@tcnj.edu <br> <br>
+          <a href="http://www.tcnj.edu/~hutchid6/"> TCNJ Website </a>
+          <br>
+          <br>
+          <div class="imageMenu">
+            <a href="https://www.flickr.com/"><img src=../images/flickr.png width = 30px height=30px > </a>
+            <a href="https://www.last.fm/"><img src=../images/lastfm.png width = 30px height=30px> </a>
+            <a href="https://www.tumblr.com/"><img src=../images/tumblr.png width = 30px height=30px></a>
+            <a href="https://twitter.com/?lang=en"><img src=../images/twitter.png width = 30px height=30px></a>
+          </div>
+         </div>
+    </div>
+  </div>
+</div>
+
+<div class="middle">
+  <br>
+  <p class="outlook">
+    I strive to do my best work and reach out to talented people who are interested in similar projects and ideas.
+    Collaboration is a key to success for me and I love working on cool projects.
+  </p>
+  <br>
+  <h2 class="skills" style="color: #29a329 "> Skills </h2>
+  <div class="row">
+    <div class="column">
+      <h4> Relevant Coursework </h4>
+      <ul>
+        <li> Intro to Interactive Computing </li>
+        <li> Intro to Digital Media </li>
+        <li> Web Design and Fundamentals </li>
+        <li> The History of Innovation </li>
+      </ul>
+      <img src=../images/pieSkills.png>
+    </div>
+    <div class="column">
+      <h4> Relevant Skills </h4>
+      <ul class="skillsList">
+         <li> <img src=../images/disk_silver_apple.png width=25px height=25px class="listImage">
+           Apple OSX </li>
+         <li> <img src=../images/disk_silver_windows.png width=25px height=25px class="listImage">
+              Windows 7</li>
+          <li> <img src=../images/adobe_photoshop.png width=25px height=25px>
+              Photoshop CS6 </li>
+          <li> <img src=../images/adobe_indesign.png width=25px height=25px>
+              InDesign CS6 </li>
+          <li> <img src=../images/adobe_illustrator.png width=25px height=25px>
+              Illustrator CS6 </li>
+          <li> <img src=../images/cssedit.png width=25px height=25px>
+              HTML/CSS </li>
+          <li> <img src=../images/coda.png width=25px height=25px>
+              Coda </li>
+       </ul>
+    </div>
+  </div>
+  <hr>
+  <h2 style="color: #29a329"> Education </h2>
+  <div class="row">
+    <div class="column">
+      <h3> The College of New Jersey </h3>
+      <ul class="unstyledList">
+        <li>2018-Present</li>
+        <li>Bachelor's in Interactive Multimedia</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3> Northern Burlington High School </h3>
+      <ul class="unstyledList">
+        <li>2014-2018</li>
+        <li>High School Diploma</li>
+        <li>National Honor Society</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <p>"Yesterday is history, tomorrow is a mystery,
+      but today is a gift, that is why the call it the present."</p>
+      <p>-Master Shifu </p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

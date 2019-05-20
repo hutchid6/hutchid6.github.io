@@ -1,0 +1,243 @@
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+@media only screen and (max-width: 600px)
+{
+  h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    text-align: center;
+  }
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+@media only screen and (max-width: 600px)
+{
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    text-align: center;
+  }
+}
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+@media only screen and (max-width: 600px)
+{
+  h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+header{
+  background-color: white;
+  font-family: 'Railway', sans-serif;
+  margin: -8px;
+}
+
+
+body{
+  background-color: black;
+  text-align: left;
+  font-family: 'Crimson Text', serif;
+  color: white;
+}
+
+p{
+  background-color: black;
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 18px;
+}
+#welcome{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+  margin-left: 33%;
+  background-color: #ad3c3c;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px)
+{
+  #welcome{
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #ad3c3c;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+  #homeDrawing{
+    width: 80%;
+  }
+}
+#firstHalf{
+  background-color: #0dadad;
+}
+#secondHalf{
+  background-color: #8c8154;
+}
+#statsDiv{
+  margin-left: 20%;
+}
+#statsLink{
+  margin-left: 20%;
+  font-size: 25px;
+}
+#volleyballText{
+  font-family: 'Crimson Text', serif;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+  margin-left: 33%;
+  background-color: #041a96;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px)
+{
+  #volleyballText{
+    font-family: 'Crimson Text', serif;
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    text-align: center;
+    margin-left: 0%;
+    background-color: #041a96;
+    padding: 10px;
+  }
+}
+#contactContents{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#contactHeader{
+  text-align: center;
+}
+form{
+  font-size: 25px;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  height: 120px;
+  background-color: grey;
+}
+
+table, th, td, tr{
+  border: 5px solid darkblue;
+  font-size: 24px;
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  margin-left: 130px;
+  font-size: 30px;
+  font-family: 'Railway', sans-serif;
+}
+.column {
+  float: left;
+  width: 40%;
+  margin: 70px; /* Should be removed. Only for demonstration */
+}
+@media only screen and (max-width: 600px)
+{
+  .column {
+    float: left;
+    width: 80%;
+    margin: 70px; /* Should be removed. Only for demonstration */
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.flexContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+}
+
+.flexContainer > div{
+  width: 221px;
+  height: 145px;
+  margin: 10px;
+}
+.smallImage{
+  width: 221px;
+  height: 145px;
+}
+ul{
+  list-style-type: none;
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+ul.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.navBar {
+  float: left;
+}
+
+@media only screen and (max-width: 600px)
+{
+  li.navBar {
+    float: none;
+  }
+}
+
+li a.navBar {
+  display: block;
+  padding: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover.navBar {
+  background-color: grey;
+}
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: lightgrey;
+}
+
+a:hover{
+  color: grey;
+}
+
+a:active{
+  color: darkred;
+}
