@@ -179,7 +179,7 @@ button{
 .flexContainer{
   display: flex;
   flex-wrap: wrap;
-  margin-left: 15%;
+  margin-left: 2%;
 }
 
 .flexContainer > div{
