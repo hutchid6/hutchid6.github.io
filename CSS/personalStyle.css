@@ -241,3 +241,10 @@ a:hover{
 a:active{
   color: darkred;
 }
+
+#devlog1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
