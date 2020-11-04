@@ -247,4 +247,5 @@ a:active{
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  position: absolute;
 }
