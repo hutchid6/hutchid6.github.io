@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "drag-controls": "^1.0.4",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.3.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+}
+}

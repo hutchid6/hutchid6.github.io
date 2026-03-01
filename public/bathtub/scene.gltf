@@ -1,0 +1,338 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2344,
+      "max": [
+        -2.457900047302246,
+        5.038700103759766,
+        4.01747989654541
+      ],
+      "min": [
+        -6.161570072174072,
+        -0.7513599991798401,
+        -2.4391000270843506
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28128,
+      "componentType": 5126,
+      "count": 2344,
+      "max": [
+        0.9993863701820374,
+        0.9985319972038269,
+        0.9997033476829529
+      ],
+      "min": [
+        -0.9997170567512512,
+        -0.9984967708587646,
+        -0.9988464117050171
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 14040,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 56256,
+      "componentType": 5126,
+      "count": 2344,
+      "max": [
+        5.670899868011475,
+        4.6900200843811035,
+        3.600559949874878
+      ],
+      "min": [
+        2.542479991912842,
+        -1.0456199645996094,
+        -2.7351200580596924
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 84384,
+      "componentType": 5126,
+      "count": 2344,
+      "max": [
+        0.9989809989929199,
+        0.9985319972038269,
+        0.9997033476829529
+      ],
+      "min": [
+        -0.9997177720069885,
+        -0.999776303768158,
+        -0.9988464117050171
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 56160,
+      "componentType": 5125,
+      "count": 14040,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 112512,
+      "componentType": 5126,
+      "count": 2040,
+      "max": [
+        9.800450325012207,
+        5.060770034790039,
+        8.383600234985352
+      ],
+      "min": [
+        -8.34811019897461,
+        -5.017429828643799,
+        2.15132999420166
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 136992,
+      "componentType": 5126,
+      "count": 2040,
+      "max": [
+        0.9979247450828552,
+        0.9987421631813049,
+        0.9999985098838806
+      ],
+      "min": [
+        -0.9981095194816589,
+        -0.9988319277763367,
+        -0.99995356798172
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 112320,
+      "componentType": 5125,
+      "count": 12228,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "snougo (https://sketchfab.com/snougo)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bathtub-7c9a2706795740c9842994b592a9dc63",
+      "title": "Bathtub"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 161232,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 161472,
+      "byteOffset": 161232,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 322704,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.2,
+        "roughnessFactor": 0.48
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bathtub_b_feet_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "bathtub_f_feet_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "bathtub_body_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.10545223206281662,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.3415099206850836e-17,
+        -0.10545223206281662,
+        0.0,
+        0.0,
+        0.10545223206281662,
+        2.3415099206850836e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4,
+        6
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        0.41599,
+        0.90937,
+        -0.0,
+        0.0,
+        0.5833900000000001,
+        -0.26687000000000005,
+        0.7670900000000002,
+        0.0,
+        0.6975700000000001,
+        -0.31910000000000005,
+        -0.6415400000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "bathtub_b_feet"
+    },
+    {
+      "mesh": 0,
+      "name": "bathtub_b_feet_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -0.34093000000000007,
+        0.9400900000000001,
+        -0.0,
+        0.0,
+        0.6031000000000001,
+        0.21872000000000003,
+        0.7670900000000002,
+        0.0,
+        0.72113,
+        0.26153,
+        -0.6415400000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "bathtub_f_feet"
+    },
+    {
+      "mesh": 1,
+      "name": "bathtub_f_feet_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "bathtub_body"
+    },
+    {
+      "mesh": 2,
+      "name": "bathtub_body_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
