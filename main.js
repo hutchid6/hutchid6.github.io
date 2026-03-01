@@ -3,7 +3,7 @@ import { DragControls } from 'three/addons/controls/DragControls.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RapierPhysics } from 'three/addons/physics/RapierPhysics.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import TOON_TONE from './images/threeTone.jpg'
+import TOON_TONE from '/images/threeTone.jpg'
 
 let physics;
 let dragControls;
