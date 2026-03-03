@@ -80,7 +80,19 @@ async function init(){
         clickSound.setBuffer(buffer);
         clickSound.setVolume(0.3);
     });
-    
+
+    const resumeAudioContext = () => {
+        sphereHoverListener.context.resume();
+        document.removeEventListener('pointerdown', resumeAudioContext);
+    };
+    document.addEventListener('pointerdown', resumeAudioContext);
+
+    document.getElementById('volume-slider').addEventListener('input', (e) => {
+        const vol = parseFloat(e.target.value);
+        hoverSound.setVolume(vol * 0.5);
+        popSound.setVolume(vol * 0.3);
+        clickSound.setVolume(vol * 0.3);
+    });
 
     //ADD 3D MODELS
     //box
@@ -319,13 +331,15 @@ async function init(){
     };
     orbitControls.enableDamping = true;
     orbitControls.dampingFactor = 0.08;
+    orbitControls.minDistance = 3;
+    orbitControls.maxDistance = 60;
 
     
 
     // --- Hover detection ---
     renderer.domElement.addEventListener('mousemove', onMouseMove);
 
-    camera.position.set(0, 15, 25)
+    camera.position.set(0, 25, 20)
     orbitControls.update()
     renderer.setAnimationLoop(animate);
 }

@@ -146,6 +146,29 @@ canvas{
     white-space: nowrap;
 }
 
+.volume-control {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+}
+
+.volume-control label {
+    color: rgb(249, 254, 255);
+    font-family: 'MilkyNice', sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.volume-control input[type="range"] {
+    width: 100px;
+    height: 28px;
+    cursor: pointer;
+}
+
 .modal {
     display: none;
     position: fixed;
